@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(201, 20, 192);
+}
+.dice-logo{
+    width:50px;
+    margin-right:auto;
+}
+.dice-logo1{
+    width:min(50px);
+    height:min(50px);
+    margin-left:auto;
+    border-radius:50%;
+}
+.heading{
+    font-size:max(2.2rem);
+    padding:0;
+    margin:0;
+    color:rgb(247, 11, 149);
+    font-weight:700;
+    width:max(50px);
+    height:max(50px);
+    background:linear-gradient(36deg,red,yellow,rgb(29, 208, 240));
+    border-radius:50%;
+    border:2px solid whitesmoke;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    box-shadow:0px 2px 8px rgba(rgba(31, 243, 12, 0.932));
+}   
+.flex-nav{
+    display:flex;
+    column-gap:5px;
+}
+.dollar{
+    width:100%;
+    height:50px;
+    margin:10px;
+    display:block;
+    border-radius:12px;
+    background-image:url("../public/dollar.jfif");
+}
+.title{
+    background-color:red;
+    text-align:center;
+    letter-spacing: 5px;
+    margin:0;
+    border-radius:12px;
+   
+}
+.buton{
+    width:100%;
+    height:50px;
+    font-family:cursive;
+    font-weight:600;
+    font-size:1rem;
+    letter-spacing:2px;
+    background:radial-gradient(rgba(252, 19, 116, 0.795),rgba(238, 223, 10, 0.719));
+    border:none;
+    border-radius:10px;
+    transition:background 2s, color 1.5s;
+    transition-timing-function:ease-in;
+}
+
+.buton:hover{
+    width:100%;
+    background:rgb(60, 255, 0);
+    color:white;
+}
+.image-m{
+    background-color:bisque;
+    margin:20px;
+    width:200px;
+    height:200px;
+    border-radius:10px;
+    box-shadow:0px 5px 10px rgba(27, 252, 19, 0.795);
+    border:5px solid rgba(181, 235, 245, 0.075);
+    
+}
+.m-image{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.prize{
+    text-align:center;
+    background-color:blueviolet;
+    border-radius:20px;
+}
+.closePrize{
+    font-size:1.3rem;
+    background-color:rgba(195, 243, 23, 0.623);
+    text-align:center;
+    border-radius:20px;
+}
+.winner{
+    background-color:red;
+}
+@media (max-width:412px){
+    .dice-logo{
+        width:30px;
+        margin-right:auto;
+    }
+    .dice-logo1{
+        width:min(20px);
+        height:min(30px);
+        margin-left:auto;
+        border-radius:50%;
+    }
+    .heading{
+        font-size:max(1.2rem);
+        width:20px;
+        height:30px;
+    }   
+    .title{
+        font-size:1.2rem;
+    }
+    .dollar{
+        height:40px;
+    }
+    .image-m{
+        width:100px;
+        height:100px;
+        margin:10px;
+        margin-top:20px;
+    }
+    .m-image{
+        column-gap:1px;
+        margin:0;
+        flex-wrap:nowrap;
+        border:none;
+    }
+}
