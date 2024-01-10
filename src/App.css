@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color:rgb(201, 20, 192);
+    background:radial-gradient(rgba(117, 245, 67, 0.76),blue,red,orange,pink,rgb(247,11,149));
 }
 .dice-logo{
     width:50px;
@@ -98,7 +98,7 @@ body{
 .winner{
     background-color:red;
 }
-@media (max-width:412px){
+@media (max-width:360px){
     .dice-logo{
         width:30px;
         margin-right:auto;
@@ -123,7 +123,7 @@ body{
     .image-m{
         width:100px;
         height:100px;
-        margin:10px;
+        margin:2px;
         margin-top:20px;
     }
     .m-image{
